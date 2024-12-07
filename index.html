@@ -4,24 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Alam</title>
     <link rel="stylesheet" href="/assets/style/style.css">
 </head>
 
 <body>
-    <div class="navbar">
-        <a href="#">WEB ALAM</a>
-        <div class="navbar-right">
-            <a href="#hutan">Hutan</a>
-            <a href="#pantai">Pantai</a>
-            <a href="#gurun">Gurun</a>
-            <a href="#aside">About Me</a>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <a href="#">WEB ALAM</a>
+            <div class="navbar-right">
+                <a href="#hutan">Hutan</a>
+                <a href="#pantai">Pantai</a>
+                <a href="#gurun">Gurun</a>
+                <a href="#aside">About Me</a>
+            </div>
+        </nav>
+    </header>
     <main>
         <div id="article">
-            <article class="card">
-                <h1 id="hutan">Hutan Tropis</h1>
+            <h1>Article</h1>
+            <article class="card" id="hutan">
+                <h1>Hutan Tropis</h1>
                 <img src="/assets/img/img1.jpeg" alt="hutan-tropis">
                 <p>Hutan tropis adalah ekosistem yang sangat subur dan kaya keanekaragaman hayati, terletak di daerah
                     dekat ekuator. Dengan curah hujan tinggi sepanjang tahun, hutan ini menjadi rumah bagi berbagai
@@ -32,8 +35,8 @@
                     ekosistem global.</p>
                 <div class="btn">Read More</div>
             </article>
-            <article class="card">
-                <h1 id="pantai">Pantai</h1>
+            <article class="card" id="pantai">
+                <h1>Pantai</h1>
                 <img src="/assets/img/img2.jpg" alt="">
                 <p>
                     Pantai adalah kawasan di tepi laut yang menawarkan pemandangan indah dan suasana menenangkan.
@@ -44,8 +47,8 @@
                     air, dan kegiatan konservasi lingkungan.</p>
                 <div class="btn">Read More</div>
             </article>
-            <article class="card">
-                <h1 id="gurun">Gurun</h1>
+            <article class="card" id="gurun">
+                <h1>Gurun</h1>
                 <img src="/assets/img/img3.jpeg" alt="">
                 <p>
                     Gurun adalah wilayah tandus dengan curah hujan sangat rendah, sehingga hanya sedikit makhluk yang
@@ -57,15 +60,15 @@
                 <div class="btn">Read More</div>
             </article>
         </div>
-        <div id="aside" class="card-profile">
-            <aside>
+        <aside>
+            <div id="about" class="card-profile">
                 <h1>My Profile</h1>
                 <img src="/assets/img/IMG_1396.JPG" alt="">
                 <p>Name: Muhammad Dzaki Baihaqi</p>
                 <p>Age: 24</p>
                 <p>Born: Yogyakarta</p>
-            </aside>
-        </div>
+            </div>
+        </aside>
     </main>
 
     <footer>
